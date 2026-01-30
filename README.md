@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+Cliente Connect Hub
 
-## Project info
+Sistema de Follow-up Comercial para Pequenas Empresas
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🧠 Descrição
 
-## How can I edit this code?
+Aplicação web desenvolvida com HTML, CSS e JavaScript puro, criada para resolver um problema comum em pequenas empresas: a perda de vendas por falta de acompanhamento (follow-up) de clientes.
 
-There are several ways of editing your application.
+O sistema permite organizar contatos, acompanhar o status de cada cliente e identificar rapidamente quem precisa de retorno, tudo de forma simples e funcional, sem necessidade de backend.
 
-**Use Lovable**
+🎯 Problema que o projeto resolve
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Muitos pequenos negócios perdem oportunidades porque:
 
-Changes made via Lovable will be committed automatically to this repo.
+Não registram os contatos corretamente
 
-**Use your preferred IDE**
+Esquecem de retornar clientes interessados
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Não possuem controle de status de negociações
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Este projeto centraliza essas informações e cria alertas visuais para melhorar o acompanhamento comercial.
 
-Follow these steps:
+🚀 Funcionalidades
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Cadastro de clientes com:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Nome
 
-# Step 3: Install the necessary dependencies.
-npm i
+Telefone
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+E-mail
 
-**Edit a file directly in GitHub**
+Produto ou serviço de interesse
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Status do cliente
 
-**Use GitHub Codespaces**
+Observações
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Data do último contato
 
-## What technologies are used for this project?
+Listagem de clientes em tabela ou cards
 
-This project is built with:
+Filtro por status (Novo, Em contato, Aguardando resposta, Fechado, Perdido)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Destaque visual para clientes sem follow-up há mais de X dias
 
-## How can I deploy this project?
+Edição e remoção de clientes
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Persistência de dados utilizando LocalStorage
 
-## Can I connect a custom domain to my Lovable project?
+Interface simples, limpa e responsiva
 
-Yes, you can!
+🛠️ Tecnologias Utilizadas
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+HTML5 — estrutura da aplicação
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+CSS3 — layout, responsividade e estilização
+
+JavaScript (ES6+) — lógica da aplicação, manipulação do DOM e armazenamento local
+
+💡 Possíveis Melhorias Futuras
+
+Integração com backend (API REST)
+
+Autenticação de usuários
+
+Integração com WhatsApp ou e-mail
+
+Dashboard com métricas de vendas
+
+Exportação de dados (CSV/PDF)
+
+🧠 Aprendizados
+
+Organização de estado da aplicação no frontend
+
+Manipulação do DOM com JavaScript puro
+
+Persistência de dados com LocalStorage
+
+Estruturação de código limpo e legível
+
+Pensamento orientado a produto e resolução de problemas reais
+
+👨‍💻 Autor
+
+Emerson Bayonetta
+Desenvolvedor em formação, focado em soluções práticas e aprendizado contínuo.
+
+📄 Licença
+
+Este projeto é de uso educacional e livre para estudo.
